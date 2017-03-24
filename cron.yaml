@@ -1,0 +1,6 @@
+cron:
+- description: Daily Backup
+  url: /backup
+  schedule: every day 02:00
+  timezone: Asia/Tokyo
+  target: default
